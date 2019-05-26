@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5025496601505652540}
   m_Layer: 0
   m_Name: 2Hit_Purple_Block
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,3 +92,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 547da6245e942a548819ddd9b2689116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakSound: {fileID: 8300000, guid: 50645d39a518a430a8ab17d0ff516e17, type: 3}
+  blockVFX: {fileID: 100004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+  maxHits: 2
+  hitSprites:
+  - {fileID: 21300000, guid: 953441b4ab2fd4d4cb2ffa1b58b8a202, type: 3}
+  timesHit: 0

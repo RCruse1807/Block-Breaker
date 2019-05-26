@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 664916526597294095}
   m_Layer: 0
   m_Name: 1Hit _Blue_Block
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,3 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 547da6245e942a548819ddd9b2689116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakSound: {fileID: 8300000, guid: 50645d39a518a430a8ab17d0ff516e17, type: 3}
+  blockVFX: {fileID: 100004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
+  maxHits: 1
+  timesHit: 0
