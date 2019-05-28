@@ -44,9 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfe5308e97e38074e93ab909d72111d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSpeed: 1
+  gameSpeed: 0.9
   pointsPerBlockDestroyed: 50
   scoreText: {fileID: 2739985646986779313}
+  isAutoPlayEnabled: 0
   currentScore: 0
 --- !u!1001 &6073204495539844098
 PrefabInstance:
@@ -60,6 +61,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8236583588689473203, guid: b8b697e84e3ee1b419cb7018369e0f9d,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91,
+        type: 2}
+    - target: {fileID: 8236583588689473203, guid: b8b697e84e3ee1b419cb7018369e0f9d,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
     - target: {fileID: 4301277546290749006, guid: b8b697e84e3ee1b419cb7018369e0f9d,
         type: 3}
       propertyPath: m_LocalPosition.x

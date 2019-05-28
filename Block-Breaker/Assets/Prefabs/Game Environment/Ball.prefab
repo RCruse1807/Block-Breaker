@@ -231,5 +231,6 @@ MonoBehaviour:
   mainPaddle: {fileID: 0}
   xPush: 2
   yPush: 15
+  randomFactor: 0.2
   ballAudioSounds:
   - {fileID: 8300000, guid: 7ee93d4c0720045798bbbb1c76c4d674, type: 3}
